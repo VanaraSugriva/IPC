@@ -4,7 +4,7 @@ import os
 
 # --- Конфигурация. Config ---
 NETBOX_URL = "https://netbox.axioma-ipc.ru"
-NETBOX_TOKEN = "878fce3ad774ca50e0023f5d780c880a01488070"  # API токен Netbox (admin - API Token and create Permission)
+NETBOX_TOKEN = f"{token}"  # API токен Netbox (admin - API Token and create Permission)
 EXCEL_FILE_PATH = "kln_address.xlsx"  # Excel with VM attributes
 SHEET_NAME = "Prod"  # Название листа в Excel файле
 

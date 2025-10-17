@@ -6,7 +6,7 @@ import os
 # --- Конфигурация ---
 NETBOX_URL = "https://netbox.axioma-ipc.ru"
 # API токен Netbox
-NETBOX_TOKEN = "878fce3ad774ca50e0023f5d780c880a01488070"
+NETBOX_TOKEN = f"{token}"
 # Путь к Excel файлу
 EXCEL_FILE_PATH = "kln_address.xlsx"
 # Название листа с данными
